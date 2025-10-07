@@ -1,4 +1,5 @@
 import React from "react";
+import './Navber.css'
 import { NavLink } from "react-router";
 import { Link } from "react-router";
 import { FaGithub } from "react-icons/fa";
@@ -38,7 +39,7 @@ const Navber = () => {
             {links}
           </ul>
         </div>
-        <img src={logo} alt="logo" className="w-[40px] h-[40px] mr-2" />
+        <Link to="/home"><img src={logo} alt="logo" className="w-[40px] h-[40px] mr-2" /></Link>
         <a className="text-[#9F62F2] font-bold btn-ghost text-xl">HERO.IO</a>
       </div>
       <div className="navbar-center hidden lg:flex">
