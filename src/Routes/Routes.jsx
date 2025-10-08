@@ -5,13 +5,14 @@ import ErrorPage from '../Components/ErrorPage'
 import Home from '../Pages/Home/Home';
 import Apps from '../Pages/Apps/Apps';
 import AppDetails from '../Components/AppDetails/AppDetails';
+import Installation from '../Pages/Installation/installation';
+
 
 
 export const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
-    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         index: true, Component: Home, path: '/',
@@ -27,6 +28,14 @@ export const router = createBrowserRouter([
         Component: AppDetails,
         loader: ()=>fetch('/AppData.json')
 
+      },
+      {
+        path: '/installation',
+        Component: Installation
+      },
+      {
+        path: '*',
+        element: <ErrorPage></ErrorPage>
       }
     ]
 

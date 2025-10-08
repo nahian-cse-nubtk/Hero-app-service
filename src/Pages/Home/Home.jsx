@@ -52,7 +52,7 @@ const Home = () => {
 
         </div>
       </div>
-      <Link to="" className="flex justify-center"><button className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white">Show All</button></Link>
+      <Link to="/apps" className="flex justify-center"><button className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white">Show All</button></Link>
     </div>
   );
 };
