@@ -1,17 +1,48 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import downloadImg from "/icon-downloads.png";
 import ratingImg from "/icon-ratings.png";
 import reviewImg from "/icon-review.png";
 import { Link, useLoaderData, useParams } from 'react-router';
 import AppDataBarChart from '../BarChart/AppDataBarChart';
+import { toast } from 'react-toastify';
+import CustomError from '../CustomError/CustomError';
+import { addDataToLS, getItemFromLS } from '../../LocalStorage/LocalStorage';
 
 const AppDetails = () => {
+    const [install, setInstall] =useState(false);
     const id = useParams().id;
     const AppsData = useLoaderData();
     const EachData = AppsData.filter((data)=>data.id===parseInt(id))
-    const [targetData]=EachData
+    // console.log(typeof(id));
 
-    const data = targetData.ratings
+    useEffect(()=>{
+        const lsData = getItemFromLS();
+        // console.log(lsData)
+        const installedAppId = lsData.filter((data)=>data===parseInt(id));
+        // console.log(installedAppId);
+
+        if(installedAppId.length){
+            setInstall(true);
+        }
+
+    },[])
+
+    if(EachData.length===0){
+
+        return <CustomError/>
+    }
+    const [targetData]=EachData
+    const data = targetData.ratings;
+
+
+    const handleChangeState = ()=>{
+        setInstall(true);
+        toast('Installation is in progress');
+        addDataToLS(targetData.id)
+
+
+    }
+
 
 
     return (
@@ -50,7 +81,7 @@ const AppDetails = () => {
         </div>
         </div>
         <Link to=''>
-        <button className="btn bg-[#00D390] text-white mt-20">Install Now ({targetData.size}MB)</button>
+        <button disabled={install} onClick={handleChangeState} className="btn bg-[#00D390] text-white mt-20 ">{install?'Installed':`Install Now (${targetData.size}MB`}</button>
         </Link>
 
 

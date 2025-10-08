@@ -1,9 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
 import { useLoaderData } from "react-router";
 import AppCard from "../../Components/AppCard/AppCard";
+import NotFound from "../../Components/NotFound/NotFound";
 
 const Apps = () => {
-    const AppsData = useLoaderData();
+    const AllData = useLoaderData();
+    const [AppsData, setAppsdata] = useState([...AllData])
+    // console.log(AppsData)
+     const [loading, setLoading] = useState(false);
+    const handleSearch =(e)=>{
+      e.preventDefault();
+      const searchValue = e.target.value.toLowerCase()
+      setLoading(true);
+      setTimeout(()=>{
+      if(searchValue){
+      const filteredValue = AppsData.filter((data)=>data.title.toLowerCase().includes(searchValue));
+      setAppsdata([...filteredValue])
+      }
+      else{
+        setAppsdata([...AllData])
+      }
+      setLoading(false);
+    }, 500);
+    }
 
   return (
     <div className="bg-gray-100 pb-10">
@@ -31,13 +50,18 @@ const Apps = () => {
                 <path d="m21 21-4.3-4.3"></path>
               </g>
             </svg>
-            <input type="search" required placeholder="Search Apps" />
+            <input onChange={handleSearch} type="search" required placeholder="Search Apps" name="search"/>
           </label>
         </div>
       </div>
-      <div className="grid grid-cols-4 gap-5 px-20">
+       {loading && (
+        <div className="flex justify-center my-4">
+          <div className="h-8 w-8 border-4 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
+        </div>
+      )}
+      <div className={`grid ${AppsData.length?'grid-cols-4':'grid-cols-1'} gap-5 px-20`}>
         {
-            AppsData.map((data)=><AppCard data={data}></AppCard>)
+            AppsData.length? AppsData.map((data)=><AppCard data={data}></AppCard>):<NotFound></NotFound>
         }
 
       </div>
