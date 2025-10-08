@@ -7,8 +7,8 @@ import logo from '/logo.png'
 const Navber = () => {
   const links =
    <div className="text-xl space-x-2 flex flex-col md:flex-row">
-  <NavLink to='/home'>Home</NavLink>
-  <NavLink to='/app'>Apps</NavLink>
+  <NavLink to='/'>Home</NavLink>
+  <NavLink to='/apps'>Apps</NavLink>
   <NavLink to='/installation'>Installation</NavLink>
   </div>
   return (

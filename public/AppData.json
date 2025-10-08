@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3",
+    "title": "Snapify",
+    "companyName": "Snapify Labs",
+    "id": 1,
+    "description": "Snapify is a smart camera app built for creators. With professional filters, one-tap background blur, and intuitive editing, it turns any photo into a masterpiece. Users can shoot in manual or auto mode depending on their style. Cloud sync keeps your memories safe, and daily challenges inspire creativity. It’s the perfect blend of simplicity and power for mobile photography.",
+    "size": 85,
+    "reviews": 32450,
+    "ratingAvg": 4.7,
+    "downloads": 5400000,
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 4100 },
+      { "name": "4 star", "count": 9500 },
+      { "name": "5 star", "count": 16350 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
+    "title": "TaskHero",
+    "companyName": "Prodigy Tools",
+    "id": 2,
+    "description": "TaskHero is designed to help busy professionals stay organized and focused. It features smart to-do lists, reminders, and collaborative boards that make project tracking effortless. Color-coded priorities ensure clarity, while cloud sync keeps your tasks updated across devices. Daily insights and streak tracking help you build habits that last. Whether at work or home, TaskHero is your productivity partner.",
+    "size": 60,
+    "reviews": 27500,
+    "ratingAvg": 4.8,
+    "downloads": 4100000,
+    "ratings": [
+      { "name": "1 star", "count": 650 },
+      { "name": "2 star", "count": 1020 },
+      { "name": "3 star", "count": 3600 },
+      { "name": "4 star", "count": 8800 },
+      { "name": "5 star", "count": 13430 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7",
+    "title": "Langify",
+    "companyName": "LinguaSoft",
+    "id": 3,
+    "description": "Langify helps you learn new languages in a fun, interactive way. With bite-sized lessons, real-time pronunciation feedback, and daily quizzes, mastering a language becomes effortless. The AI tutor adapts to your progress and gives personalized challenges. You can chat with native speakers, earn badges, and track your growth. It’s not just a learning app — it’s your passport to the world.",
+    "size": 95,
+    "reviews": 35200,
+    "ratingAvg": 4.9,
+    "downloads": 6200000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 2800 },
+      { "name": "4 star", "count": 9200 },
+      { "name": "5 star", "count": 21400 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1588702547919-26089e690ecc",
+    "title": "ShopWise",
+    "companyName": "SmartCart Global",
+    "id": 4,
+    "description": "ShopWise makes online shopping smarter and faster. Compare prices from thousands of stores in real time, set price alerts, and find exclusive deals. The clean interface ensures quick navigation and secure checkout. ShopWise learns your preferences to give personalized recommendations. With lightning-fast performance and trusted sellers, it’s everything a modern shopper needs.",
+    "size": 72,
+    "reviews": 29100,
+    "ratingAvg": 4.6,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1300 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 8900 },
+      { "name": "5 star", "count": 14000 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1604881991720-f91add269bed",
+    "title": "GameXplore",
+    "companyName": "PlayVerse Inc.",
+    "id": 5,
+    "description": "GameXplore is the ultimate gaming companion for every gamer. Discover trending games, get reviews, and connect with players worldwide. Leaderboards keep the competition alive while curated news keeps you updated. Create your profile, earn XP, and build your squad. Whether mobile, console, or PC, GameXplore brings the gaming world into your hands.",
+    "size": 100,
+    "reviews": 40500,
+    "ratingAvg": 4.8,
+    "downloads": 6500000,
+    "ratings": [
+      { "name": "1 star", "count": 1100 },
+      { "name": "2 star", "count": 1300 },
+      { "name": "3 star", "count": 4100 },
+      { "name": "4 star", "count": 10200 },
+      { "name": "5 star", "count": 23800 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1522199710521-72d69614c702",
+    "title": "EduSpark",
+    "companyName": "NextLearn",
+    "id": 6,
+    "description": "EduSpark brings world-class education to your phone. Watch expert video lessons, join live classes, and test your skills through adaptive quizzes. AI mentors guide your learning journey and keep you on track. Whether for school, college, or self-learning, EduSpark makes education interactive and personalized. Knowledge is now just a tap away.",
+    "size": 85,
+    "reviews": 33200,
+    "ratingAvg": 4.9,
+    "downloads": 7200000,
+    "ratings": [
+      { "name": "1 star", "count": 620 },
+      { "name": "2 star", "count": 1050 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 9100 },
+      { "name": "5 star", "count": 19300 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=800&q=80",
+    "title": "FitMate",
+    "companyName": "Wellness Labs",
+    "id": 7,
+    "description": "FitMate transforms your fitness journey with personalized workout and meal plans. Track your steps, calories, heart rate, and more in one dashboard. The app motivates you with daily challenges and progress streaks. Integration with smartwatches ensures real-time health updates. Whether you’re a beginner or pro, FitMate is your pocket trainer.",
+    "size": 95,
+    "reviews": 28500,
+    "ratingAvg": 4.8,
+    "downloads": 4900000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 3300 },
+      { "name": "4 star", "count": 8700 },
+      { "name": "5 star", "count": 17500 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2",
+    "title": "BookNest",
+    "companyName": "PageTurner",
+    "id": 8,
+    "description": "BookNest is a digital library where stories live and breathe. Browse thousands of eBooks and audiobooks, save favorites, and read offline. Personalized recommendations help you discover hidden gems. The app supports dark mode, bookmarks, and synced reading history. Whether you love romance, thrillers, or fantasy — BookNest keeps you turning pages.",
+    "size": 70,
+    "reviews": 19800,
+    "ratingAvg": 4.7,
+    "downloads": 3600000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 7200 },
+      { "name": "5 star", "count": 9500 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30",
+    "title": "SleepHaven",
+    "companyName": "DreamCore",
+    "id": 9,
+    "description": "SleepHaven helps you relax and sleep better with guided sleep sessions, soothing sounds, and smart tracking. It analyzes your sleep cycles and gives daily tips to improve rest. Users love the peaceful design and relaxing playlists. It’s more than an app — it’s your nightly comfort zone. Wake up refreshed, every day.",
+    "size": 55,
+    "reviews": 25400,
+    "ratingAvg": 4.9,
+    "downloads": 4200000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 820 },
+      { "name": "3 star", "count": 1900 },
+      { "name": "4 star", "count": 7200 },
+      { "name": "5 star", "count": 15000 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769",
+    "title": "MusicVibe",
+    "companyName": "TuneBox",
+    "id": 10,
+    "description": "MusicVibe brings you the ultimate music streaming experience. Discover trending tracks, create personalized playlists, and listen offline. Its smart AI recommends songs based on your mood and listening habits. With high-quality audio and zero lag, MusicVibe makes every beat count. It’s music, redefined for your lifestyle.",
+    "size": 110,
+    "reviews": 31000,
+    "ratingAvg": 4.8,
+    "downloads": 5800000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 950 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 9200 },
+      { "name": "5 star", "count": 17150 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1522199710521-72d69614c702?auto=format&fit=crop&w=800&q=80",
+    "title": "SafeNet",
+    "companyName": "CyberGuard",
+    "id": 11,
+    "description": "SafeNet keeps your online activity private and secure. With end-to-end encryption, threat detection, and VPN support, it protects your digital identity. The lightweight design ensures your browsing stays fast. One tap protection means safety is always on. Trusted by millions worldwide, SafeNet is your shield in the online world.",
+    "size": 50,
+    "reviews": 18800,
+    "ratingAvg": 4.7,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 520 },
+      { "name": "2 star", "count": 870 },
+      { "name": "3 star", "count": 2300 },
+      { "name": "4 star", "count": 5800 },
+      { "name": "5 star", "count": 9300 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1525182008055-f88b95ff7980",
+    "title": "Travelio",
+    "companyName": "GlobeWander",
+    "id": 12,
+    "description": "Travelio is your personal travel assistant, helping you discover, plan, and book amazing trips. It recommends hidden gems, local experiences, and affordable stays. Real traveler reviews ensure you make the best choices. Whether for a weekend getaway or a world tour, Travelio makes every journey memorable.",
+    "size": 120,
+    "reviews": 27500,
+    "ratingAvg": 4.6,
+    "downloads": 3700000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 8800 },
+      { "name": "5 star", "count": 9600 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3",
+    "title": "MindBloom",
+    "companyName": "Zenly Studios",
+    "id": 13,
+    "description": "MindBloom is a meditation and mental wellness app designed to help you stay calm and centered. It offers guided meditations, ambient music, and breathing exercises. AI mood tracking helps personalize your sessions. MindBloom brings mindfulness into daily routines so you can focus better and live happier.",
+    "size": 65,
+    "reviews": 22100,
+    "ratingAvg": 4.8,
+    "downloads": 3100000,
+    "ratings": [
+      { "name": "1 star", "count": 520 },
+      { "name": "2 star", "count": 760 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 6500 },
+      { "name": "5 star", "count": 10220 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+    "title": "CodeStack",
+    "companyName": "DevCraft",
+    "id": 14,
+    "description": "CodeStack empowers developers with an all-in-one mobile coding experience. Write, debug, and collaborate directly from your phone. It supports multiple languages, offers smart syntax hints, and integrates with cloud repositories. Whether you're fixing a bug on the go or learning to code, CodeStack makes it easy.",
+    "size": 130,
+    "reviews": 42000,
+    "ratingAvg": 4.9,
+    "downloads": 7100000,
+    "ratings": [
+      { "name": "1 star", "count": 650 },
+      { "name": "2 star", "count": 980 },
+      { "name": "3 star", "count": 2900 },
+      { "name": "4 star", "count": 10800 },
+      { "name": "5 star", "count": 26570 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1556761175-4b46a572b786",
+    "title": "Cookify",
+    "companyName": "Foodora Tech",
+    "id": 15,
+    "description": "Cookify brings easy, step-by-step recipes straight to your kitchen. Follow video tutorials, set cooking timers, and get personalized meal suggestions. With its ingredient scanner, you can find recipes using what’s already in your fridge. Cookify makes cooking fun, creative, and stress-free.",
+    "size": 80,
+    "reviews": 17400,
+    "ratingAvg": 4.6,
+    "downloads": 2600000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 2300 },
+      { "name": "4 star", "count": 5700 },
+      { "name": "5 star", "count": 8000 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1532619187608-e5375cab36aa",
+    "title": "PetPal",
+    "companyName": "PawTech",
+    "id": 16,
+    "description": "PetPal helps pet owners manage everything from vet appointments to daily care. Track health, vaccination, and feeding schedules with ease. Connect with a vibrant community of pet lovers to share tips and stories. With PetPal, your furry friends always get the best care and love.",
+    "size": 55,
+    "reviews": 13200,
+    "ratingAvg": 4.7,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 2200 },
+      { "name": "4 star", "count": 4800 },
+      { "name": "5 star", "count": 7100 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1485217988980-11786ced9454",
+    "title": "Artify",
+    "companyName": "VisionArts",
+    "id": 17,
+    "description": "Artify is the ultimate drawing and design app for digital artists. With dozens of brush types, layers, and blending modes, your imagination has no limits. Collaborate in real time or share your creations instantly. Artify turns your device into a powerful art studio.",
+    "size": 140,
+    "reviews": 29500,
+    "ratingAvg": 4.8,
+    "downloads": 5400000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 8500 },
+      { "name": "5 star", "count": 16200 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1593642634315-48f5414c3ad9",
+    "title": "StreamPro",
+    "companyName": "NextStream",
+    "id": 18,
+    "description": "StreamPro brings live streaming to a new level with crystal-clear quality and zero buffering. Host your own streams or explore trending creators worldwide. The platform is packed with chat tools, monetization options, and smart moderation. StreamPro gives creators the stage they deserve.",
+    "size": 125,
+    "reviews": 40200,
+    "ratingAvg": 4.6,
+    "downloads": 6200000,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1300 },
+      { "name": "3 star", "count": 4200 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 23500 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77",
+    "title": "LearnPro",
+    "companyName": "SkillForge",
+    "id": 19,
+    "description": "LearnPro gives you access to thousands of online courses from top instructors. Watch bite-sized lessons, track your progress, and earn certificates. Whether you’re learning to code or picking up a new hobby, LearnPro turns your phone into a personal classroom. Learning has never been this simple and fun.",
+    "size": 90,
+    "reviews": 33000,
+    "ratingAvg": 4.9,
+    "downloads": 5600000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 950 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 8700 },
+      { "name": "5 star", "count": 20350 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1573164713988-8665fc963095",
+    "title": "StudyPro",
+    "companyName": "EduLabs",
+    "id": 20,
+    "description": "StudyPro is built for students who want to learn smarter, not harder. It offers flashcards, smart quizzes, and AI-generated study plans. Progress tracking helps you stay consistent with your goals. StudyPro adapts to your strengths and weaknesses for maximum results. With clean design and powerful tools, studying becomes less stressful and more rewarding.",
+    "size": 70,
+    "reviews": 26500,
+    "ratingAvg": 4.7,
+    "downloads": 2200000,
+    "ratings": [
+      { "name": "1 star", "count": 520 },
+      { "name": "2 star", "count": 870 },
+      { "name": "3 star", "count": 2400 },
+      { "name": "4 star", "count": 6500 },
+      { "name": "5 star", "count": 13210 }
+    ]
+  }
+]
