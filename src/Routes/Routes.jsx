@@ -5,7 +5,7 @@ import ErrorPage from '../Components/ErrorPage'
 import Home from '../Pages/Home/Home';
 import Apps from '../Pages/Apps/Apps';
 import AppDetails from '../Components/AppDetails/AppDetails';
-import Installation from '../Pages/Installation/installation';
+import Installation from '../Pages/Installation/Installation';
 import NotFound from '../Components/NotFound/NotFound';
 import CustomError from '../Components/CustomError/CustomError';
 
@@ -33,7 +33,8 @@ export const router = createBrowserRouter([
       },
       {
         path: '/installation',
-        Component: Installation
+        Component: Installation,
+        loader: ()=>fetch('/AppData.json')
       },
       {
         path: '*',

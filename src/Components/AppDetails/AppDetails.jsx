@@ -25,7 +25,7 @@ const AppDetails = () => {
             setInstall(true);
         }
 
-    },[])
+    },[id])
 
     if(EachData.length===0){
 
