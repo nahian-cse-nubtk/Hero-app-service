@@ -21,7 +21,7 @@ const Installation = () => {
     StoredData.includes(data.id))
     setInstalled([...allInstalledApps]);
 
-},[])
+},[loadedAppsData])
 
 
  const handleUninstall =(id,title)=>{
