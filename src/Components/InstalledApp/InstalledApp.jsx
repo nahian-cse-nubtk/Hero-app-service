@@ -1,14 +1,14 @@
 import React from 'react';
 import downloadImg from "/icon-downloads.png";
 import ratingImg from "/icon-ratings.png";
-import demoApp from "/demo.webp";
+
 
 const InstalledApp = ({data,handleUninstall}) => {
     return (
         <div className="flex justify-between items-center bg-white p-3 rounded-md mb-5">
         <div className="flex gap-3 items-center  ">
           <div>
-            <img className ="w-[80px] h-[80px]" src={demoApp} alt="installed app" />
+            <img className ="w-[80px] h-[80px]" src={data.image} alt="installed app" />
           </div>
           <div>
             <h1 className="text-2xl font-bold">

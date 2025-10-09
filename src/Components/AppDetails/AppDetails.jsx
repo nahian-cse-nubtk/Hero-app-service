@@ -46,8 +46,8 @@ const AppDetails = () => {
 
 
     return (
-        <div className='px-20 py-10'>
-            <div className='flex gap-5'>
+        <div className='px-3 md:px-20 py-10'>
+            <div className='flex flex-col md:flex-row gap-5'>
             <div><img className='w-[350px] h-[350px]' src={targetData.image} alt="" />
             </div>
 

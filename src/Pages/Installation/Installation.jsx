@@ -48,11 +48,11 @@ const Installation = () => {
       <p className="text-center py-3">
         Explore All Trending Apps on the Market developed by us
       </p>
-      <div className="px-20 flex justify-between items-center">
+      <div className="px-3 md:px-20 flex justify-between items-center">
         <p className="text-2xl font-bold">{installed.length} Apps Found</p>
         <div className="dropdown dropdown-bottom">
           <div tabIndex={0} role="button" className="btn m-1">
-            Sort By Size <IoIosArrowDown />
+            Sort By Downloads <IoIosArrowDown />
           </div>
           <ul
             tabIndex={0}
@@ -67,7 +67,7 @@ const Installation = () => {
           </ul>
         </div>
       </div>
-      <div className="mx-20 mt-5 pb-5 " >
+      <div className="mx-3 md:mx-20 mt-5 pb-5 " >
       {
         installed.map((data)=><InstalledApp key={data.id}
         handleUninstall={handleUninstall} data={data}></InstalledApp>)

@@ -21,7 +21,7 @@ const Home = () => {
 
       <div className="text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2] p-10">
         <h1 className="text-4xl text-center">Trusted by Millions, Built for You</h1>
-        <div className="flex justify-center items-center gap-10 pt-5">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-10 pt-5">
         <div  className="text-center">
           <p>Total Downloads</p>
           <h1 className="text-5xl font-bold">29.6M</h1>
@@ -45,7 +45,7 @@ const Home = () => {
       <div className="mt-10">
         <h1 className="text-4xl text-center font-bold">Trending Apps</h1>
         <p className="text-center mt-3">Explore All Trending Apps on the Market developed by us</p>
-        <div className="grid grid-cols-4 gap-5 px-20 py-10">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-5 px-1 md:px-20 py-10">
           {
             firstEight.map((data)=><AppCard key= {data.id} data={data}></AppCard>)
           }

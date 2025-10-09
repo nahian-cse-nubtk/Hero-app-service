@@ -30,8 +30,8 @@ const Apps = () => {
       <p className="text-center pt-3">
         Explore All Apps on the Market developed by us. We code for Millions
       </p>
-      <div className="flex justify-between px-20 py-5">
-        <div><p className="text-3xl font-bold">({AppsData.length}) Apps Found</p></div>
+      <div className="flex justify-between px-3 md:px-20 py-5">
+        <div><p className=" text-[15px] md:text-3xl font-bold">({AppsData.length}) Apps Found</p></div>
         <div>
           <label className="input">
             <svg
@@ -59,7 +59,7 @@ const Apps = () => {
           <div className="h-8 w-8 border-4 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
         </div>
       )}
-      <div className={`grid ${AppsData.length?'grid-cols-4':'grid-cols-1'} gap-5 px-20`}>
+      <div className={`grid ${AppsData.length?'grid-cols-1 md:grid-cols-4':'grid-cols-1'} gap-5 px-3 md:px-20`}>
         {
             AppsData.length? AppsData.map((data)=><AppCard data={data}></AppCard>):<NotFound></NotFound>
         }

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { BarChart, Bar, XAxis, YAxis } from "recharts";
+import { BarChart, Bar, XAxis, YAxis, ResponsiveContainer } from "recharts";
 
 // Example data
 // const data = [
@@ -17,9 +17,10 @@ const SquareBar = (props) => {
 
 const AppDataBarChart = ({data}) =>  {
   return (
+    <div style={{ width: '100%', height: 300 }}>
+      <ResponsiveContainer width="100%" height="100%">
     <BarChart
-      width={1000}
-      height={300}
+      
       data={data}
       layout="vertical"
       margin={{ top: 20, right: 30, left: 0, bottom: 20 }}
@@ -28,6 +29,8 @@ const AppDataBarChart = ({data}) =>  {
       <YAxis type="category" dataKey="name" />
       <Bar dataKey="count" fill="#FF8811" shape={<SquareBar />} />
     </BarChart>
+    </ResponsiveContainer>
+    </div>
   );
 };
 
