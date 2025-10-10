@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { BarChart, Bar, XAxis, YAxis, ResponsiveContainer } from "recharts";
+import { BarChart, Bar, XAxis, YAxis, ResponsiveContainer, Tooltip } from "recharts";
 
 // Example data
 // const data = [
@@ -20,7 +20,7 @@ const AppDataBarChart = ({data}) =>  {
     <div style={{ width: '100%', height: 300 }}>
       <ResponsiveContainer width="100%" height="100%">
     <BarChart
-      
+
       data={data}
       layout="vertical"
       margin={{ top: 20, right: 30, left: 0, bottom: 20 }}
@@ -28,6 +28,7 @@ const AppDataBarChart = ({data}) =>  {
       <XAxis type="number" />
       <YAxis type="category" dataKey="name" />
       <Bar dataKey="count" fill="#FF8811" shape={<SquareBar />} />
+      <Tooltip></Tooltip>
     </BarChart>
     </ResponsiveContainer>
     </div>

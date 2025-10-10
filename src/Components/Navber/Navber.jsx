@@ -46,7 +46,9 @@ const Navber = () => {
           <Link to="/">
             <img src={logo} alt="logo" className="w-[40px] h-[40px] mr-2" />
           </Link>
+          <Link to="/">
           <a className="text-[#9F62F2] font-bold btn-ghost text-xl">HERO.IO</a>
+          </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{links}</ul>
